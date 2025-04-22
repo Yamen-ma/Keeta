@@ -1011,7 +1011,13 @@ background: linear-gradient(273deg, rgba(34, 195, 39, 0.38) 0%, rgba(83, 253, 45
      </div>
     <div class="copied" id="copiedMessage"></div>
     <div class="copied" id="copiedMessage"></div>
-
+ <script>
+        // Disable right-click on the entire page
+        document.addEventListener('contextmenu', function(event) {
+            event.preventDefault();
+            alert("Right-click is disabled on this page.");
+        });
+    </script>
     <script>
         const tabs = document.querySelectorAll('.tab');
         const contents = document.querySelectorAll('.content');
