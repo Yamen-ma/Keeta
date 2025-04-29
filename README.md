@@ -1,0 +1,1 @@
+This project is specifically designed for the Keeta Rider Merchant Team. It encompasses a comprehensive collection of scripts, solutions, and other essential tools, all meticulously organized for seamless access. The structure allows users to effortlessly copy any script with a simple click
