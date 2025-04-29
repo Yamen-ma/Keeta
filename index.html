@@ -18,6 +18,9 @@ background: linear-gradient(265deg, rgba(43, 42, 42, 1) 0%, rgba(66, 66, 66, 1) 
             padding: 0;
             text-align: left;
         }
+        .max-width{
+            max-width:600px;
+        }
         .ar{
             text-align: right !important;
                 }
@@ -131,6 +134,7 @@ background: linear-gradient(273deg, rgba(34, 195, 39, 0.38) 0%, rgba(83, 253, 45
     </style>
 </head>
 <body>
+    <div class="max-width">
     <div class="tab-container">
         <div class="tab active" onclick="showContent(0)">Scripts</div>
         <div class="tab" onclick="showContent(1)">Take away</div>
@@ -1015,6 +1019,7 @@ background: linear-gradient(273deg, rgba(34, 195, 39, 0.38) 0%, rgba(83, 253, 45
      </div>
     <div class="copied" id="copiedMessage"></div>
     <div class="copied" id="copiedMessage"></div>
+        </div>
  <script>
         // Disable right-click on the entire page
         document.addEventListener('contextmenu', function(event) {
