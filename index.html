@@ -77,22 +77,26 @@ background: linear-gradient(265deg, rgba(43, 42, 42, 1) 0%, rgba(66, 66, 66, 1) 
             display: block;
         }
         table {
+            border-spacing: 3px 10px;
             margin: 0;
             border-collapse: separate;
             width: 100%;
             color: #EAEAEA;
         }
         th, td {
-           border: 0.13em solid #898789;
+            background: #363535;
             border-radius: 5px;
             padding: 7px;
             text-align: right;
+             box-shadow: 0 4px 8px 0 rgba(185, 185, 185, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            transition: all 0.3s ease;
         }
         td:hover {
 background: #4f4f4f;
-background: linear-gradient(274deg, rgba(79, 79, 79, 0.65) 0%, rgba(112, 112, 112, 0.6) 100%);
             color: #FFD700;
             cursor: pointer;
+                        transform: translateY(-2px);
+
         }
         .copied {
             color: #fff;
@@ -100,9 +104,7 @@ background: linear-gradient(274deg, rgba(79, 79, 79, 0.65) 0%, rgba(112, 112, 11
             text-align: center;
             margin-top: 20px;
         }
-        .highlight {
-background: #22c327;
-background: linear-gradient(273deg, rgba(34, 195, 39, 0.38) 0%, rgba(83, 253, 45, 0.42) 100%)!important;      }
+        
         .red{
             color: rgb(252, 120, 120) !important;
         }
@@ -133,6 +135,9 @@ background: linear-gradient(273deg, rgba(34, 195, 39, 0.38) 0%, rgba(83, 253, 45
         .online{
             color:#00b330!important;
         }
+           .highlight {
+            background-color: #59ff5f !important ;
+            color: #091a3e !important;}
     </style>
 </head>
 <body>
